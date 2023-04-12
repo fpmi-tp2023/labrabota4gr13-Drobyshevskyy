@@ -18,8 +18,7 @@ int main(int argc, char* argv[]) {
    char *sql;
 
    /* Open database */
-   rc = sqlite3_open("test.db", &db);
-   
+   rc = sqlite3_open("test.db", &db);   
    if( rc ) {
       fprintf(stderr, "Can't open database: %s\n", sqlite3_errmsg(db));
       return(0);
