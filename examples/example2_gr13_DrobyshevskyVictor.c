@@ -16,7 +16,6 @@ int main(int argc, char* argv[]) {
    char *zErrMsg = 0;
    int rc;
    char *sql;
-
    /* Open database */
    rc = sqlite3_open("test.db", &db);
    
